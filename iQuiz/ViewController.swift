@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  iQuiz
-//
-//  Created by Mac on 01/07/23.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bottonStartQuiz: UIButton!
+    @IBAction func buttonPressed(_ sender: Any) {
+        print("O bottao foi precionado")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configLayout()
     }
-
-
+    
+    func configLayout(){
+        bottonStartQuiz.layer.cornerRadius = 12.0
+    }
 }
 
