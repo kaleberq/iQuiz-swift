@@ -23,8 +23,13 @@ class QuestionViewController: UIViewController {
         if questionNumber < questions.count - 1 {
             questionNumber += 1
             Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(configQuestion), userInfo: nil, repeats: false)
+        }else{
+            navigateToPerformaceScreen()
         }
-        
+    }
+    
+    func navigateToPerformaceScreen(){
+        performSegue(withIdentifier: "goToPerformaceScreen", sender: nil)
     }
     
     override func viewDidLoad() {
@@ -50,5 +55,10 @@ class QuestionViewController: UIViewController {
             button.setTitle(titleButton, for: .normal)
             button.backgroundColor = UIColor(red: 116/255, green: 50/255, blue: 255/255, alpha: 1.0)
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let performaceVC = segue.destination as? PerformanceViewController else { return }
+        performaceVC.punctuation = punctuation
     }
 }

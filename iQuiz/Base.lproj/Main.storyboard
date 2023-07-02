@@ -141,6 +141,7 @@
                         <outletCollection property="buttonsResponse" destination="dIr-ZQ-8Cq" collectionClass="NSMutableArray" id="jfd-vg-cXk"/>
                         <outletCollection property="buttonsResponse" destination="wPH-8e-7BW" collectionClass="NSMutableArray" id="3Ks-an-UFT"/>
                         <outletCollection property="buttonsResponse" destination="vj8-zt-yUN" collectionClass="NSMutableArray" id="vjf-qb-9mX"/>
+                        <segue destination="Y3z-LA-MKy" kind="show" identifier="goToPerformaceScreen" id="Oes-VB-3Qh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1NU-DS-2Nt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -152,7 +153,7 @@
             <objects>
                 <viewController id="Y3z-LA-MKy" customClass="PerformanceViewController" customModule="iQuiz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7No-23-auO">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voce finalizou o iQuiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bj-VR-wXZ">
@@ -206,6 +207,7 @@
                             <constraint firstItem="3bj-VR-wXZ" firstAttribute="top" secondItem="LyW-tN-Vdi" secondAttribute="top" constant="112" id="zZk-ux-yCQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gCE-YK-8rA"/>
                     <connections>
                         <outlet property="buttonRestarQuiz" destination="ZTZ-2r-rGQ" id="kLe-w1-VwB"/>
                         <outlet property="percentLabel" destination="HwR-Tj-2qd" id="L9f-Ae-eZq"/>
@@ -236,6 +238,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Oes-VB-3Qh"/>
         <segue reference="naK-sf-ccw"/>
     </inferredMetricsTieBreakers>
     <resources>

@@ -2,6 +2,8 @@ import UIKit
 
 class PerformanceViewController: UIViewController {
 
+    var punctuation: Int?
+    
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var percentLabel: UILabel!
     @IBOutlet weak var buttonRestarQuiz: UIButton!
