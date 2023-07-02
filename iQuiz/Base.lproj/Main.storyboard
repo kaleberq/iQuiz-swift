@@ -71,7 +71,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIr-ZQ-8Cq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIr-ZQ-8Cq">
                                 <rect key="frame" x="64" y="318" width="262" height="62"/>
                                 <color key="backgroundColor" red="0.45490196078431372" green="0.19607843137254902" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
@@ -86,7 +86,7 @@
                                     <action selector="responseButtonPressed:" destination="qX2-ko-LDR" eventType="touchUpInside" id="VJZ-fi-VaB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPH-8e-7BW">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPH-8e-7BW">
                                 <rect key="frame" x="64" y="412" width="262" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
@@ -101,7 +101,7 @@
                                     <action selector="responseButtonPressed:" destination="qX2-ko-LDR" eventType="touchUpInside" id="6po-nD-6sH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-zt-yUN">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-zt-yUN">
                                 <rect key="frame" x="64" y="506" width="262" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
@@ -137,7 +137,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="qTQ-cq-PbU"/>
                     <connections>
-                        <outlet property="titleQuestionLAbel" destination="MbW-KE-0U3" id="tRk-xe-idz"/>
+                        <outlet property="titleQuestionLabel" destination="MbW-KE-0U3" id="fRo-6W-r4l"/>
                         <outletCollection property="buttonsResponse" destination="dIr-ZQ-8Cq" collectionClass="NSMutableArray" id="jfd-vg-cXk"/>
                         <outletCollection property="buttonsResponse" destination="wPH-8e-7BW" collectionClass="NSMutableArray" id="3Ks-an-UFT"/>
                         <outletCollection property="buttonsResponse" destination="vj8-zt-yUN" collectionClass="NSMutableArray" id="vjf-qb-9mX"/>
