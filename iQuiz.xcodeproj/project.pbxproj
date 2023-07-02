@@ -15,6 +15,7 @@
 		04380E1C2A50661B002B4ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04380E1A2A50661B002B4ACA /* LaunchScreen.storyboard */; };
 		04380E242A50FA6A002B4ACA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04380E232A50FA6A002B4ACA /* QuestionViewController.swift */; };
 		0454ED7E2A51F97700539EC6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454ED7D2A51F97700539EC6 /* Question.swift */; };
+		0454ED802A520D9200539EC6 /* PerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454ED7F2A520D9200539EC6 /* PerformanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04380E1D2A50661B002B4ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04380E232A50FA6A002B4ACA /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		0454ED7D2A51F97700539EC6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0454ED7F2A520D9200539EC6 /* PerformanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				04380E1D2A50661B002B4ACA /* Info.plist */,
 				04380E232A50FA6A002B4ACA /* QuestionViewController.swift */,
 				0454ED7D2A51F97700539EC6 /* Question.swift */,
+				0454ED7F2A520D9200539EC6 /* PerformanceViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				04380E102A506619002B4ACA /* AppDelegate.swift in Sources */,
 				04380E242A50FA6A002B4ACA /* QuestionViewController.swift in Sources */,
 				04380E122A506619002B4ACA /* SceneDelegate.swift in Sources */,
+				0454ED802A520D9200539EC6 /* PerformanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
